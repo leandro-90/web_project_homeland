@@ -1,0 +1,28 @@
+.main {
+  max-width: 830px;
+  margin: 92px 302px 92px 148px;
+}
+
+.main__title {
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 58px;
+}
+
+.main__quote {
+  max-width: 738px;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.main__author {
+  max-width: 732px;
+  margin: 10px 6px 0 0;
+  text-align: end;
+}
+
+.main__text {
+  max-width: 722px;
+  line-height: 26.08px;
+  margin: 32px 0 0;
+}
