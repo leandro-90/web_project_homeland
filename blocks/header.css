@@ -1,5 +1,9 @@
+.header {
+  width: 100%;
+}
+
 .header__logo-image {
-  width: 254px;
+  max-width: 254px;
   height: 70px;
   display: flex;
   margin: 0 auto;
@@ -28,13 +32,29 @@
   margin: 0 0 64px;
 }
 
-@media screen and (max-widht: 1024px) {
-  .header-content__title {
-    width: 530px;
-    font-size: 75px;
-    line-height: 79px;
+@media screen and (max-width: 768px) {
+  .header {
+    max-width: 768px;
   }
-  .header-content__image {
+
+  .header__logo-image {
+    height: 66px;
+  }
+
+  .header-content__title-group {
     width: 100%;
+    margin: 90px auto 30px;
+  }
+
+  .header-content {
+    width: 100%;
+  }
+
+  .header-content__subtitle {
+    margin: 0 auto;
+  }
+
+  .header-content__image {
+    max-width: 100%;
   }
 }

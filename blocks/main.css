@@ -26,3 +26,16 @@
   line-height: 26.08px;
   margin: 32px 0 0;
 }
+
+@media screen and (max-width: 769px) {
+  .main {
+    width: 720px;
+    margin: 90px auto 88px;
+  }
+
+  .main__title {
+    width: 707px;
+    font-size: 45px;
+    line-height: 49px;
+  }
+}
