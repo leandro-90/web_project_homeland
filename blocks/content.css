@@ -1,78 +1,78 @@
-.main {
+.content {
   max-width: 984px;
   margin: 92px auto 148px;
 }
 
-.main__title {
+.content__title {
   font-size: 54px;
   font-weight: 900;
   line-height: 58px;
 }
 
-.main__quote {
+.content__quote {
   max-width: 738px;
   font-size: 24px;
 }
 
-.main__author {
+.content__author {
   max-width: 732px;
   margin: 10px 6px 0 0;
   text-align: end;
 }
 
-.main__text {
+.content__text {
   max-width: 722px;
   line-height: 26.08px;
   margin: 32px 0 0;
 }
 
 @media screen and (max-width: 768px) {
-  .main {
+  .content {
     max-width: 984px;
     margin: 90px 24px 88px;
   }
 
-  .main__title {
+  .content__title {
     font-size: 45px;
     line-height: 49px;
   }
 
-  .main__quote {
+  .content__quote {
     line-height: 34px;
   }
 
-  .main__text {
+  .content__text {
     max-width: 720px;
   }
 }
 
 @media screen and (max-width: 425px) {
-  .main {
+  .content {
     max-width: 288px;
     margin: 64px auto;
   }
 
-  .main__title {
+  .content__title {
     width: 100%;
     font-size: 32px;
     line-height: 35px;
     margin: 0 0 40px;
   }
 
-  .main__quote {
+  .content__quote {
     width: 100%;
     line-height: 30px;
     margin: 0 0 10px;
     height: 180px;
   }
 
-  .main__author {
+  .content__author {
     width: 100%;
     font-size: 24px;
     line-height: 34px;
   }
 
-  .main__text {
+  .content__text {
     width: 100%;
   }
 }
