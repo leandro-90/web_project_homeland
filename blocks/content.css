@@ -26,6 +26,20 @@
   margin: 32px 0 0;
 }
 
+.content__grid-photos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  width: 1184px;
+  margin: 118px auto 92px;
+  gap: 16px;
+}
+
+.content__grid-item {
+  max-width: 284px;
+  width: 100%;
+}
+
 @media screen and (max-width: 768px) {
   .content {
     max-width: 984px;
