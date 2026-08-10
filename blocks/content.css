@@ -40,6 +40,9 @@
   width: 100%;
 }
 
+.content__cities {
+}
+
 @media screen and (max-width: 768px) {
   .content {
     max-width: 984px;
