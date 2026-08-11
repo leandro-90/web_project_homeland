@@ -30,9 +30,11 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  width: 1184px;
+  max-width: 1184px;
+  width: 100%;
   margin: 118px auto 92px;
   gap: 16px;
+  transform: scale(1.22);
 }
 
 .content__grid-item {
@@ -40,7 +42,45 @@
   width: 100%;
 }
 
-.content__cities {
+.content__city_criccieth {
+  display: grid;
+  grid-template-columns: 460px 456px;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.content__city-title_criccieth {
+  max-width: 460px;
+  max-height: 228px;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  margin: 0;
+}
+
+.content__city-artist_criccieth {
+  max-height: 67px;
+}
+
+.content__city-artist_criccieth::first-line {
+  max-width: 85.17px;
+  max-height: 15px;
+  font-size: 12px;
+  color: #aaaaaa;
+}
+
+.content__city-text_criccieth {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.content__city-button_criccieth {
+  max-width: 356.08px;
+  max-height: 48px;
+  background-image: linear-gradient(to right, #0278fe, #003a7b);
+  color: white;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 @media screen and (max-width: 768px) {
