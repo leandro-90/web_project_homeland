@@ -32,7 +32,6 @@
   grid-template-rows: repeat(2, 1fr);
   width: 1184px;
   margin: 118px auto 92px;
-  gap: 16px;
 }
 
 .content__grid-item {
