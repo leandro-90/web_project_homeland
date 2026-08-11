@@ -1,5 +1,4 @@
 .content {
-  max-width: 984px;
   margin: 92px auto;
 }
 
@@ -44,27 +43,29 @@
 .content__cities {
   margin-top: 92px;
   max-width: 984.00048828125px;
+  margin: 0 auto;
 }
 
 .content__city_criccieth {
   display: grid;
-  grid-template-areas: "content__city-title content__city-artist" "content__city-image content__city-text_top" "content__city-image content__city-text_bottom" "content__city-button content__city-button";
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-row-gap: 48px;
 }
 
 .content__city-title {
-  grid-area: content__city-title;
   max-width: 460px;
   max-height: 228px;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
-  margin: auto 1px 48px;
+  margin: auto 0 0;
 }
 
 .content__city-artist {
-  grid-area: content__city-artist;
   max-height: 67px;
-  margin: auto 40px 48px;
+  margin: auto 0 0;
+  line-height: 22px;
 }
 
 .content__city-artist::first-line {
@@ -76,27 +77,25 @@
 }
 
 .content__city-image {
-  grid-area: content__city-image;
   box-shadow: 5px 5px 10px black;
   margin-right: 40px;
 }
 
 .content__city-text_top {
-  grid-area: content__city-text_top;
   font-size: 18px;
-  font-weight: 400;
-  margin-left: 40px;
+  line-height: 26.08px;
+  margin: 0;
+  height: 203px;
 }
 
 .content__city-text_bottom {
-  grid-area: content__city-text_bottom;
   font-size: 18px;
-  font-weight: 400;
-  margin-left: 40px;
+  line-height: 26.08px;
+  margin: 0;
+  height: 261px;
 }
 
 .content__city-button {
-  grid-area: content__city-button;
   max-width: 356.08px;
   height: 48px;
   background-image: linear-gradient(to right, #0278fe, #003a7b);
@@ -105,7 +104,7 @@
   box-shadow: 5px 5px 10px black;
   font-size: 18px;
   font-weight: 600;
-  margin: 48px 103.92px 0 0;
+  margin: 0 103.92px 0 0;
 }
 
 a {
