@@ -43,15 +43,16 @@
 
 .content__cities {
   margin-top: 92px;
+  max-width: 984.00048828125px;
 }
 
 .content__city_criccieth {
   display: grid;
-  grid-template-columns: 460px 456px;
-  grid-template-rows: auto;
+  grid-template-areas: "content__city-title content__city-artist" "content__city-image content__city-text_top" "content__city-image content__city-text_bottom" "content__city-button content__city-button";
 }
 
 .content__city-title {
+  grid-area: content__city-title;
   max-width: 460px;
   max-height: 228px;
   font-weight: 900;
@@ -61,6 +62,7 @@
 }
 
 .content__city-artist {
+  grid-area: content__city-artist;
   max-height: 67px;
   margin: auto 40px 48px;
 }
@@ -73,21 +75,42 @@
   line-height: 3;
 }
 
-.content__city-text {
+.content__city-image {
+  grid-area: content__city-image;
+  box-shadow: 5px 5px 10px black;
+  margin-right: 40px;
+}
+
+.content__city-text_top {
+  grid-area: content__city-text_top;
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 40px;
+}
+
+.content__city-text_bottom {
+  grid-area: content__city-text_bottom;
   font-size: 18px;
   font-weight: 400;
   margin-left: 40px;
 }
 
 .content__city-button {
+  grid-area: content__city-button;
   max-width: 356.08px;
-  max-height: 48px;
+  height: 48px;
   background-image: linear-gradient(to right, #0278fe, #003a7b);
-  color: white;
   border: none;
+  border-radius: 4px;
+  box-shadow: 5px 5px 10px black;
   font-size: 18px;
   font-weight: 600;
   margin: 48px 103.92px 0 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 @media screen and (max-width: 768px) {
