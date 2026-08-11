@@ -59,6 +59,7 @@
 
 .content__city-artist {
   max-height: 67px;
+  margin: auto 40px 48px;
 }
 
 .content__city-artist::first-line {
@@ -72,6 +73,7 @@
 .content__city-text {
   font-size: 18px;
   font-weight: 400;
+  margin-left: 40px;
 }
 
 .content__city-button {
@@ -82,6 +84,7 @@
   border: none;
   font-size: 18px;
   font-weight: 600;
+  margin: 48px 103.92px 0 0;
 }
 
 @media screen and (max-width: 768px) {
