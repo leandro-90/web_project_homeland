@@ -2,35 +2,35 @@
   margin: 92px auto;
 }
 
-.intro {
+.content__intro {
   max-width: 984px;
   margin: 0 auto;
 }
 
-.title {
+.content__title {
   font-size: 54px;
   font-weight: 900;
   line-height: 58px;
 }
 
-.quote {
+.content__quote {
   max-width: 738px;
   font-size: 24px;
 }
 
-.author {
+.content__author {
   max-width: 732px;
   margin: 10px 6px 0 0;
   text-align: end;
 }
 
-.text {
+.content__text {
   max-width: 722px;
   line-height: 26.08px;
   margin: 32px 0 0;
 }
 
-.grid-photos {
+.content__grid-photos {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -40,23 +40,23 @@
   gap: 16px;
 }
 
-.grid-item {
+.content__grid-item {
   max-width: 284px;
   width: 100%;
 }
 
-.cities {
+.content__cities {
   max-width: 984.00048828125px;
   margin: 0 auto;
 }
 
-.city {
+.content__city {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-row-gap: 48px;
 }
 
-.city-title {
+.content__city-title {
   max-width: 460px;
   max-height: 228px;
   font-weight: 900;
@@ -65,13 +65,13 @@
   margin: auto 0 0;
 }
 
-.city-artist {
+.content__city-artist {
   max-height: 67px;
   margin: auto 0 0;
   line-height: 22px;
 }
 
-.city-artist::first-line {
+.content__city-artist::first-line {
   max-width: 85.17px;
   max-height: 15px;
   font-size: 12px;
@@ -79,31 +79,31 @@
   line-height: 3;
 }
 
-.city-image {
+.content__city-image {
   box-shadow: 5px 5px 10px black;
   margin-right: 40px;
 }
 
-.city-image:hover {
+.content__city-image:hover {
   opacity: 50%;
 }
 
-.text-paragraph {
+.content__text-paragraph {
   grid-row: 2 / 4;
   grid-column: 2 / 3;
 }
 
-.city-text {
+.content__city-text {
   font-size: 18px;
   line-height: 26.08px;
   margin-top: 0;
 }
 
-.city-text:last-child {
+.content__city-text:last-child {
   margin-bottom: 0;
 }
 
-.city-button {
+.content__city-button {
   max-width: 356.08px;
   height: 48px;
   background-image: linear-gradient(to right, #0278fe, #003a7b);
@@ -115,11 +115,12 @@
   margin: 0 103.92px 80px 0;
 }
 
-.city-button:hover {
+.content__city-button:hover {
   background: linear-gradient(
     90deg,
-    rgba(2, 120, 254, 0.25) 0%,
-    rgba(0, 58, 123, 0.25) 99.98%
+    rgba(2, 120, 254, 025) 0%,
+    rgba(0, 58, 123, 025) 99,
+    98%
   );
 }
 
@@ -129,20 +130,20 @@
     margin: 90px 24px 88px;
   }
 
-  .title {
+  .content__title {
     font-size: 45px;
     line-height: 49px;
   }
 
-  .quote {
+  .content__quote {
     line-height: 34px;
   }
 
-  .text {
+  .content__text {
     max-width: 720px;
   }
 
-  .grid-photos {
+  .content__grid-photos {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
@@ -152,35 +153,35 @@
     gap: 16px;
   }
 
-  .grid-item {
+  .content__grid-item {
     max-width: 352px;
     width: 100%;
   }
 
-  .city {
+  .content__city {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 48px;
   }
 
-  .city-title {
+  .content__city-title {
     max-width: 340px;
     font-size: 42px;
     line-height: 46px;
   }
 
-  .city-image {
+  .content__city-image {
     max-width: 340px;
   }
 
-  .city-text {
+  .content__city-text {
     font-size: 16px;
     line-height: 17.08px;
     margin-top: 0;
     max-height: 208px;
   }
 
-  .city-text:last-child {
+  .content__city-text:last-child {
     margin-bottom: 0;
   }
 }
@@ -195,31 +196,31 @@
     justify-content: center;
   }
 
-  .title {
+  .content__title {
     width: 100%;
     font-size: 32px;
     line-height: 35px;
     margin: 0 0 40px;
   }
 
-  .quote {
+  .content__quote {
     width: 100%;
     line-height: 30px;
     margin: 0 0 10px;
     height: 180px;
   }
 
-  .author {
+  .content__author {
     width: 100%;
     font-size: 24px;
     line-height: 34px;
   }
 
-  .text {
+  .content__text {
     width: 100%;
   }
 
-  .grid-photos {
+  .content__grid-photos {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(8, 1fr);
@@ -229,26 +230,26 @@
     gap: 16px;
   }
 
-  .grid-item {
+  .content__grid-item {
     width: 100%;
   }
 
-  .cities {
+  .content__cities {
     width: 100%;
   }
 
-  .city {
+  .content__city {
     display: flex;
     flex-direction: column;
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 48px;
   }
 
-  .city-image {
+  .content__city-image {
     width: 100%;
   }
 
-  .city-button {
+  .content__city-button {
     width: 100%;
     font-size: 14px;
   }
