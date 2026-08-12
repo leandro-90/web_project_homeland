@@ -247,4 +247,9 @@
   .city-image {
     width: 100%;
   }
+
+  .city-button {
+    width: 100%;
+    font-size: 14px;
+  }
 }
