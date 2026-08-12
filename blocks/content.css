@@ -79,6 +79,10 @@
   margin-right: 40px;
 }
 
+.content__city-image:hover {
+  opacity: 50%;
+}
+
 .content__city-text_top {
   font-size: 18px;
   line-height: 26.08px;
@@ -103,6 +107,14 @@
   font-size: 18px;
   font-weight: 600;
   margin: 0 103.92px 80px 0;
+}
+
+.content__city-button:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 120, 254, 0.25) 0%,
+    rgba(0, 58, 123, 0.25) 99.98%
+  );
 }
 
 a {
