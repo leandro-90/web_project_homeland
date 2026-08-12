@@ -71,6 +71,11 @@
   line-height: 22px;
 }
 
+.content__artist,
+.content__label-artist {
+  margin: 0;
+}
+
 .content__city-artist::first-line {
   max-width: 85.17px;
   max-height: 15px;
