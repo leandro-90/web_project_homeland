@@ -6,4 +6,4 @@ Tal projeto envolve as seguintes tecnologias:
 
 - HTML5 e CSS3
 
-* site: https://leandro-90.github.io/web_project_homeland/
+Site: https://leandro-90.github.io/web_project_homeland/
