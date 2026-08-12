@@ -2,30 +2,35 @@
   margin: 92px auto;
 }
 
-.content__title {
+.intro {
+  max-width: 984px;
+  margin: 0 auto;
+}
+
+.title {
   font-size: 54px;
   font-weight: 900;
   line-height: 58px;
 }
 
-.content__quote {
+.quote {
   max-width: 738px;
   font-size: 24px;
 }
 
-.content__author {
+.author {
   max-width: 732px;
   margin: 10px 6px 0 0;
   text-align: end;
 }
 
-.content__text {
+.text {
   max-width: 722px;
   line-height: 26.08px;
   margin: 32px 0 0;
 }
 
-.content__grid-photos {
+.grid-photos {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -35,23 +40,23 @@
   gap: 16px;
 }
 
-.content__grid-item {
+.grid-item {
   max-width: 284px;
   width: 100%;
 }
 
-.content__cities {
+.cities {
   max-width: 984.00048828125px;
   margin: 0 auto;
 }
 
-.content__city_criccieth {
+.city {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-row-gap: 48px;
 }
 
-.content__city-title {
+.city-title {
   max-width: 460px;
   max-height: 228px;
   font-weight: 900;
@@ -60,13 +65,13 @@
   margin: auto 0 0;
 }
 
-.content__city-artist {
+.city-artist {
   max-height: 67px;
   margin: auto 0 0;
   line-height: 22px;
 }
 
-.content__city-artist::first-line {
+.city-artist::first-line {
   max-width: 85.17px;
   max-height: 15px;
   font-size: 12px;
@@ -74,30 +79,31 @@
   line-height: 3;
 }
 
-.content__city-image {
+.city-image {
   box-shadow: 5px 5px 10px black;
   margin-right: 40px;
 }
 
-.content__city-image:hover {
+.city-image:hover {
   opacity: 50%;
 }
 
-.content__city-text_top {
+.text-paragraph {
+  grid-row: 2 / 4;
+  grid-column: 2 / 3;
+}
+
+.city-text {
   font-size: 18px;
   line-height: 26.08px;
   margin-top: 0;
-  height: 203px;
 }
 
-.content__city-text_bottom {
-  font-size: 18px;
-  line-height: 26.08px;
-  margin: 0;
-  height: 239px;
+.city-text:last-child {
+  margin-bottom: 0;
 }
 
-.content__city-button {
+.city-button {
   max-width: 356.08px;
   height: 48px;
   background-image: linear-gradient(to right, #0278fe, #003a7b);
@@ -109,50 +115,12 @@
   margin: 0 103.92px 80px 0;
 }
 
-.content__city-button:hover {
+.city-button:hover {
   background: linear-gradient(
     90deg,
     rgba(2, 120, 254, 0.25) 0%,
     rgba(0, 58, 123, 0.25) 99.98%
   );
-}
-
-a {
-  text-decoration: none;
-  color: white;
-}
-
-.content__city_berea {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-row-gap: 48px;
-}
-
-.content__city-text-berea_top {
-  font-size: 18px;
-  line-height: 26.08px;
-  margin-top: 0;
-  height: 203px;
-}
-
-.content__city-text-berea_bottom {
-  font-size: 18px;
-  line-height: 26.08px;
-  margin-top: 50px;
-  height: 174px;
-}
-
-.content__city-text_muramvya {
-  max-width: 484px;
-  font-size: 18px;
-  line-height: 26.08px;
-  height: 174px;
-}
-
-.content__city_muramvya {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-row-gap: 48px;
 }
 
 @media screen and (max-width: 768px) {
@@ -161,16 +129,16 @@ a {
     margin: 90px 24px 88px;
   }
 
-  .content__title {
+  .title {
     font-size: 45px;
     line-height: 49px;
   }
 
-  .content__quote {
+  .quote {
     line-height: 34px;
   }
 
-  .content__text {
+  .text {
     max-width: 720px;
   }
 }
@@ -181,27 +149,27 @@ a {
     margin: 64px auto;
   }
 
-  .content__title {
+  .title {
     width: 100%;
     font-size: 32px;
     line-height: 35px;
     margin: 0 0 40px;
   }
 
-  .content__quote {
+  .quote {
     width: 100%;
     line-height: 30px;
     margin: 0 0 10px;
     height: 180px;
   }
 
-  .content__author {
+  .author {
     width: 100%;
     font-size: 24px;
     line-height: 34px;
   }
 
-  .content__text {
+  .text {
     width: 100%;
   }
 }
