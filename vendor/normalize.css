@@ -28,6 +28,11 @@ body {
  * Renderize o elemento `main` de forma consistente no IE.
  */
 
+ a {
+  text-decoration: none;
+  color: white;
+}
+
 main {
   display: block;
 }
