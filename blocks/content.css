@@ -141,6 +141,48 @@
   .text {
     max-width: 720px;
   }
+
+  .grid-photos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    max-width: 1184px;
+    width: 100%;
+    margin: 118px auto 92px;
+    gap: 16px;
+  }
+
+  .grid-item {
+    max-width: 352px;
+    width: 100%;
+  }
+
+  .city {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 48px;
+  }
+
+  .city-title {
+    max-width: 340px;
+    font-size: 42px;
+    line-height: 46px;
+  }
+
+  .city-image {
+    max-width: 340px;
+  }
+
+  .city-text {
+    font-size: 16px;
+    line-height: 17.08px;
+    margin-top: 0;
+    max-height: 208px;
+  }
+
+  .city-text:last-child {
+    margin-bottom: 0;
+  }
 }
 
 @media screen and (max-width: 425px) {
