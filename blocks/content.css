@@ -187,8 +187,12 @@
 
 @media screen and (max-width: 425px) {
   .content {
-    max-width: 288px;
+    max-width: 320px;
     margin: 64px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .title {
@@ -213,5 +217,39 @@
 
   .text {
     width: 100%;
+  }
+
+  .grid-photos {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    max-width: 1184px;
+    width: 100%;
+    margin: 118px auto 92px;
+    gap: 16px;
+  }
+
+  .grid-item {
+    width: 100%;
+  }
+
+  .cities {
+    width: 100%;
+  }
+
+  .city {
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 48px;
+  }
+
+  .city-image {
+    width: 100%;
+  }
+
+  .city-button {
+    width: 100%;
+    font-size: 14px;
   }
 }
