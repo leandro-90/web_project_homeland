@@ -10,7 +10,7 @@ Landing page responsiva que apresenta a cidade de origem de diferentes colaborad
 - Layout adaptado para telas de aproximadamente 380px a 2350px.
 - Imagens com textos alternativos para acessibilidade.
 
-## Tecnologias e praticas
+## Tecnologias e práticas
 
 - HTML5 semantico.
 - CSS3 responsivo com media queries.
@@ -18,7 +18,7 @@ Landing page responsiva que apresenta a cidade de origem de diferentes colaborad
 - Metodologia BEM para organizacao dos estilos.
 - Normalize CSS e fontes locais.
 
-## Organizacao
+## Organização
 
 - `index.html`: estrutura principal da pagina.
 - `blocks/`: estilos dos blocos BEM.
@@ -26,10 +26,10 @@ Landing page responsiva que apresenta a cidade de origem de diferentes colaborad
 - `images/`: logotipo, fotos e imagens de cidades.
 - `vendor/`: normalize e fontes.
 
-## Como executar
+## Como executar?
 
 Abra `index.html` em um navegador ou sirva a pasta com um servidor estatico.
 
-## Projeto publicado
+## Site
 
 https://leandro-90.github.io/web_project_homeland/
