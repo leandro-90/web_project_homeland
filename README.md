@@ -1,9 +1,35 @@
-# Tripleten web_project_homeland
+# Homeland
 
-Projeto proposto pela TripleTen, com o objetivo de praticar e aprender desenvolvimento web responsivo, baseados em telas maiores, como de 1024px á 2350px. Também para telas menores que se encaixam na categoria mobile como tablet e smartphones, como entre 380px e 520px.
+Landing page responsiva que apresenta a cidade de origem de diferentes colaboradores. O projeto foi desenvolvido para praticar composicao visual, tipografia, imagens e adaptacao entre desktop, tablet e mobile.
 
-Tal projeto envolve as seguintes tecnologias:
+## Destaques
 
-- HTML5 e CSS3
+- Cabecalho com identidade visual e introducao do projeto.
+- Secao de apresentacao com textos e imagens de cidades.
+- Galeria de lugares e colaboradores.
+- Layout adaptado para telas de aproximadamente 380px a 2350px.
+- Imagens com textos alternativos para acessibilidade.
 
-Site: https://leandro-90.github.io/web_project_homeland/
+## Tecnologias e praticas
+
+- HTML5 semantico.
+- CSS3 responsivo com media queries.
+- Flexbox para alinhamento e distribuicao do conteudo.
+- Metodologia BEM para organizacao dos estilos.
+- Normalize CSS e fontes locais.
+
+## Organizacao
+
+- `index.html`: estrutura principal da pagina.
+- `blocks/`: estilos dos blocos BEM.
+- `pages/index.css`: arquivo que importa os estilos da pagina.
+- `images/`: logotipo, fotos e imagens de cidades.
+- `vendor/`: normalize e fontes.
+
+## Como executar
+
+Abra `index.html` em um navegador ou sirva a pasta com um servidor estatico.
+
+## Projeto publicado
+
+https://leandro-90.github.io/web_project_homeland/
