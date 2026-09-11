@@ -1,35 +1,42 @@
-# Homeland
+# 🏞️ TripleTen - Projeto Pátria (Homeland)
 
-Landing page responsiva que apresenta a cidade de origem de diferentes colaboradores. O projeto foi desenvolvido para praticar composicao visual, tipografia, imagens e adaptacao entre desktop, tablet e mobile.
+Uma página web responsiva e visualmente envolvente sobre a vastidão, diversidade e paisagens fascinantes dos Estados Unidos, desenvolvida focando em boas práticas de estruturação e estilização CSS.
 
-## Destaques
+🔗 **Acesse o site:** [leandro-90.github.io/web_project_homeland](https://leandro-90.github.io/web_project_homeland/)
 
-- Cabecalho com identidade visual e introducao do projeto.
-- Secao de apresentacao com textos e imagens de cidades.
-- Galeria de lugares e colaboradores.
-- Layout adaptado para telas de aproximadamente 380px a 2350px.
-- Imagens com textos alternativos para acessibilidade.
+---
 
-## Tecnologias e práticas
+## 📌 Sobre o Projeto
 
-- HTML5 semantico.
-- CSS3 responsivo com media queries.
-- Flexbox para alinhamento e distribuicao do conteudo.
-- Metodologia BEM para organizacao dos estilos.
-- Normalize CSS e fontes locais.
+O **Projeto Pátria (Homeland)** é uma página estática criada para explorar o design responsivo e a organização moderna de código front-end. O projeto apresenta histórias, fatos e imagens marcantes de diferentes regiões dos EUA, priorizando a usabilidade, fluidez e fidelidade ao layout de referência.
 
-## Organização
+### 🛠️ Tecnologias Utilizadas
 
-- `index.html`: estrutura principal da pagina.
-- `blocks/`: estilos dos blocos BEM.
-- `pages/index.css`: arquivo que importa os estilos da pagina.
-- `images/`: logotipo, fotos e imagens de cidades.
-- `vendor/`: normalize e fontes.
+- **HTML5:** Estrutura semântica e tags de acessibilidade.
+- **CSS3:** 
+  - **Flexbox & CSS Grid:** Construção de layouts flexíveis e grids de fotos.
+  - **Metodologia BEM (Block Element Modifier):** Organização das classes para modularização e reutilização do CSS.
+  - **Media Queries:** Adaptação precisa para telas de smartphones, tablets e desktops.
 
-## Como executar?
+> 💡 **Nota:** Este projeto é construído utilizando 100% **HTML5 e CSS3 puros**, sem dependência de **JavaScript** ou *frameworks* externos.
 
-Abra `index.html` em um navegador ou sirva a pasta com um servidor estatico.
+---
 
-## Site
+## 🎨 Funcionalidades e Destaques
 
-https://leandro-90.github.io/web_project_homeland/
+- **Layout 100% Responsivo:** Otimizado para proporcionar uma excelente experiência de leitura em qualquer tamanho de tela.
+- **Galeria de Fotos em Grid:** Exibição elegante de paisagens usando CSS Grid Layout.
+- **Arquitetura BEM:** CSS limpo, escopado por blocos e fácil de manter.
+- **Tipografia e Cores Harmoniosas:** Escolhas de fontes e hierarquia visual focadas em leitura confortável.
+
+---
+
+## 📂 Estrutura do Repositório
+
+```text
+web_project_homeland/
+├── blocks/          # Arquivos CSS divididos por componentes (Metodologia BEM)
+├── images/          # Imagens, vetores e ícones do projeto
+├── pages/           # Arquivo principal de estilos globais (index.css)
+├── vendor/          # Estilos de terceiros e normalização (normalize.css)
+└── index.html       # Estrutura principal da página
